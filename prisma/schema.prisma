@@ -14,11 +14,11 @@ datasource db {
 }
 
 model beer {
-  id         String @id @default(auto()) @map("_id") @db.ObjectId
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
   description String
-  style      String
-  ABV        String
-  IBU        Int
-  bottle     String
-  price      Float
+  style       String
+  ABV         String
+  IBU         Int
+  bottle      String
+  price       Float
 }
